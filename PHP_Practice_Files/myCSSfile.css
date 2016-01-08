@@ -1,0 +1,33 @@
+.mainContainer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	float: left;
+	width: 100%;
+	left: auto;
+	right: auto;
+	background-color: #0066FF;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	position: relative;
+	height: auto;
+	width: 50%;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	clear: both;
+	padding-top: 20px;
+	padding-left: 50px;
+}

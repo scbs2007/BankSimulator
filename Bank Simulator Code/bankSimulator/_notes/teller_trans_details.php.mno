@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsTellerTransDetails" value="name:trans_id;datatype:int,name:trans_date;datatype:string,name:debit_credit;datatype:string,name:trans_amount;datatype:int,name:cust_id;datatype:int,name:modifier;datatype:string,name:modifier_id;datatype:int" />
+</info>

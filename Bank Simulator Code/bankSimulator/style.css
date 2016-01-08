@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+/* =html */
+html { margin : 0; 
+background :url(images/fieldset.png) repeat-x;
+padding : 0; 
+color : #333; 
+text-align : center; }
+
+
+/* =body */
+body { width : 90%; 
+margin : 100px auto; 
+padding : 0; 
+font : 76%/160% Tahoma, Verdana, Arial, sans-serif; 
+background-color : #fff; 
+text-align : left; }
+
+/* =hx */
+h1 { width:409px;
+height:67px;
+padding :0;
+margin :0;
+}
+ 
+/* =a */
+a:link { color : #8e2f5b; 
+text-decoration : none; }
+
+a:visited { color : #8e2f5b; 
+text-decoration : underline; }
+
+/* =table */
+/*table { border-left:none; border-right:none;border-top : 1px solid #000;border-bottom : 1px solid #000; }
+*/
+th {background : #90305c;
+color : #fff;
+padding : 1em .7em 1em .7em;
+font-weight : bold; }
+
+tbody td, tbody th { text-align:center;padding : .5em; }
+
+td { text-align:center;padding : 0 10px; }
+
+/* =label,label span */
+label,label span {display:block; padding-bottom:.25em;}
+label {float:left; width:100%; float:left; text-align:right;}
+label span {float:left; width:45%; text-align:right;}
+
+/* =input */
+fieldset input {float:right; width:45%; border:1px solid #e590b8;}
+fieldset input:hover{ border-color:#000;}
+fieldset input:active,input:focus{border-color:#900;}
+
+form div{clear:both; margin-bottom:20px; padding:10px 20px; text-align:center;}
+
+/* =fieldset*/
+fieldset{background :url(images/fieldset.png) repeat-x;
+margin-bottom:10px;
+padding:20px; 
+border:1px solid #a23668;
+overflow:hidden;
+}
+
+fieldset:hover{border-color:#722549;}
+
+form div input {padding:0 .25em;
+background-color : #90305c;
+border:2px double #551c35;
+border-top-color:#e591b9;
+font:bold 92% Tahoma, Geneva, sans-serif;
+color:#fff;
+text-transform:uppercase;
+}
+
+form div input:hover {background-color : #e591b9;}
